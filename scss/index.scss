@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap');
+
+html,body{
+  height: 100%;
+}
+
+.wrapper{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+[class*="__container"]
+{
+  margin: 0 auto;
+  max-width: 1087px;
+  padding: 0 15px;
+}
+
+@import "header.scss";
+@import "main.scss";
