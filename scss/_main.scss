@@ -269,7 +269,7 @@
 .healthcare{
   max-width: 1152px;
   width: 100%;
-  padding: 25px 0 25px;
+  padding: 25px 0 50px;
 
   &__description{
     display: flex;
@@ -423,6 +423,7 @@
   .healthcare {
       &__cart{
         max-width: 200px;
+        padding: 10px;
       }
 
     &__box4{
